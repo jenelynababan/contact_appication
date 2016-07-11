@@ -1,0 +1,27 @@
+{
+  "author": "Kim Wilfred Obiso",
+  "description": "Contacts",
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "compression": "^1.6.2",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "express-validator": "^2.20.5",
+    "mysql": "^2.10.2",
+    "nodemon": "^1.9.2"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "express",
+  "scripts": {},
+  "version": "1.1.0",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express-session": "^1.14.0",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
+    "passport-stormpath": "^0.2.4",
+    "stormpath": "^0.18.3",
+    "window-popup": "^1.0.1"
+  }
+}

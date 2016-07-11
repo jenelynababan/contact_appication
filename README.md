@@ -1,1 +1,2 @@
-# contact_appication
+# contact_application
+project structure sample application

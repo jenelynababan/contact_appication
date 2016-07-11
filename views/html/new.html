@@ -1,0 +1,17 @@
+<html> 
+<head>
+	<title><%= title %></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="../views/css/temp.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1><%= title %></h1>			
+	<a href="/">Home</a><br><br><hr>  
+	<form action="/add" method="post">
+		Name 	: <input type="text" name="con_name" required><br><br> 
+		Mobile 	: <input type="number" name="con_num" required><br><br>  
+			      <input type="submit" value ="Add Contacts">
+	 </form>
+
+	</body>
+</html>

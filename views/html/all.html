@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<title><%= title %></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="../views/css/temp.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1><%= title %></h1>
+	<a href="/login_view">Login</a><br>
+	<a href="/new">Add Contacts</a><br><br><hr>		
+	<% for(var i=0; i<rows.length; i++) {%>
+		<li>NAME    : <%= rows[i].con_name %></li>
+		<li>CONTACT : <%= rows[i].con_num %></li>
+	  	<a href="/edit/<%= rows[i].con_id %>">Edit</a> 
+		<a href="/delete/<%= rows[i].con_id %>">Delete</a>
+		<hr>		   
+	<% } %>
+ 	<p>
+ 		#priume
+ 	</p>
+</body>
+</html>
